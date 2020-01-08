@@ -20,7 +20,7 @@ Improved personalized event recommendation based on favorite records.
 * Logic tier
   * Maintain the business logic of the application, sitting between presentation tier and data tier, receive request from presentation tier, make correct database operation, and return the final result back to presentation tier.
   * Language: Java
-  
+  ![image](https://github.com/XiaomingNiu-Sam/EventRecommendation/blob/master/images/Overview.png)
 # API Design
 * Search
   * Use TicketMaster API to search events.
@@ -34,6 +34,8 @@ Improved personalized event recommendation based on favorite records.
   * Query database to verify and return response.
 * Logout
   * Invalidate the session and redirect to index.html.
+ ![image](https://github.com/XiaomingNiu-Sam/EventRecommendation/blob/master/images/APIs.png)
+  
 # Database Design
 * MySQL
   * users
@@ -44,7 +46,8 @@ Improved personalized event recommendation based on favorite records.
     * store item-category relationship: item_id, category.
   * history
     * store item-user relationship: user_id, item_id, last_favor_time.
- 
+  ![image](https://github.com/XiaomingNiu-Sam/EventRecommendation/blob/master/images/mysql.png)
+
 * MongoDB
   * users
     * store user information and favorite items.
