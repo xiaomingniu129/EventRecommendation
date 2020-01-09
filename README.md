@@ -2,12 +2,12 @@
 This is a personalization-based event recommendation systems for event search. 
 # Description
 Developed a dynamic web application for users to search for events and update preferences.
-Improved personalized event recommendation based on favorite records. 
+Improved the personalized event recommendation based on favorite records.
 * Back End:
   * Created Java servlets with RESTful APIs to handle HTTP requests and responses.
-  * Built both relational databases MySQL and NoSQL databases MongoDB to capture real events data from TicketMaster API.
-  * Designed content-based recommendation algorithms based on categories and distance of events to implement the events recommendation.
-  * Deployed server side to Amazon EC2: http://13.57.35.36/EventRecommender/
+  * Built both the relational database MySQL and the NoSQL database MongoDB to capture real events data from TicketMaster API.
+  * Designed content-based recommendation algorithms based on categories and distance of events to implement the event recommendation.
+  * Deployed the server side to Amazon EC2: http://13.57.35.36/EventRecommender/
 * Front End:
   * Designed an interactive web page utilizing AJAX with HTML, CSS and JavaScript.
 # Overview
